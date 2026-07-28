@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ckb" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEXAR | Professional LED Display Solutions</title>
+  <meta name="description" content="NEXAR supplies, assembles, installs, configures, tests, maintains, and supports professional indoor and outdoor LED display systems.">
+  <meta property="og:title" content="NEXAR | LED Display Solutions">
+  <meta property="og:description" content="Complete LED display solutions from professional supply to installation and technical support.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/nexar-logo-dark.png">
+  <link rel="icon" href="assets/images/nexar-logo-dark.png">
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem('nexar-theme');
+        const systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = saved === 'dark' || saved === 'light' ? saved : (systemDark ? 'dark' : 'light');
+      } catch (_) {
+        document.documentElement.dataset.theme = 'light';
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#home" data-i18n="skip">بڕۆ بۆ ناوەڕۆک</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="NEXAR"><span class="logo-wrap"><img class="theme-logo logo-dark" src="assets/images/nexar-logo-dark.png" alt="NEXAR logo" data-logo><img class="theme-logo logo-light" src="assets/images/nexar-logo-light.png" alt="" aria-hidden="true"><span class="logo-fallback">NEXAR</span></span><span class="brand-text"><strong>NEXAR</strong><small data-i18n="brand_tagline">چارەسەری شاشەی LED</small></span></a>
+      <div class="header-controls">
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme">
+          <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 15.4A8.5 8.5 0 0 1 8.6 3.5 8.5 8.5 0 1 0 20.5 15.4Z"/></svg>
+          <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+        </button>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-i18n-aria="open_menu"><span></span><span></span><span></span></button>
+      </div>
+      <nav id="site-nav" class="site-nav" data-i18n-aria="navigation">
+        <a href="#home" class="active" data-nav data-i18n="nav_home">سەرەکی</a><a href="#products" data-nav data-i18n="nav_products">بەرهەمەکان</a><a href="#contact" data-nav data-i18n="nav_contact">پەیوەندی</a>
+        <div class="languages" aria-label="Language"><button type="button" data-lang="ckb">کوردی</button><button type="button" data-lang="en">EN</button><button type="button" data-lang="ar">عربي</button></div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="home" class="hero page-section">
+      <div class="container samples-hero reveal">
+        <div class="samples-heading"><h1 data-i18n="samples_title">نموونەی بەرهەمەکانمان</h1><p data-i18n="samples_subtitle">هەندێک نموونە لە جۆر و شێوە جیاوازەکانی شاشەکانمان</p></div>
+        <div class="samples-carousel" data-samples-carousel role="region" aria-label="نموونەی بەرهەمەکانمان" data-i18n-aria="samples_title">
+          <div class="samples-state" data-samples-state aria-live="polite" data-i18n="loading_images">وێنەکان بار دەکرێن...</div>
+          <div class="samples-track" data-samples-track tabindex="0"></div>
+          <button class="samples-arrow samples-previous" type="button" data-samples-previous data-i18n-aria="previous_image" aria-label="وێنەی پێشوو">‹</button>
+          <button class="samples-arrow samples-next" type="button" data-samples-next data-i18n-aria="next_image" aria-label="وێنەی دواتر">›</button>
+        </div>
+      </div>
+    </section>
+    <section id="products" class="section page-section">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow" data-i18n="products_label">بەرهەمەکان</p><h2 data-i18n="products_title">شاشەی LED بۆ هەر پڕۆژەیەک</h2><p data-i18n="products_intro">هەڵبژاردن بە پێی شوێن، مەودای بینین و پێداویستی پڕۆژە دەکرێت.</p></div>
+        <div class="product-grid" data-product-gallery-grid aria-live="polite">
+          <div class="product-gallery-loading" role="status" data-i18n="loading_images">Loading product images…</div>
+          <template>
+          <article class="product-card" data-product="P1.5 Indoor"><div class="product-image"><img src="assets/images/products/p1-5.jpg" alt="P1.5 Indoor LED display" loading="lazy" data-product-image><span>P1.5</span></div><div class="card-body"><div class="card-meta"><span data-i18n="indoor">ناوەوە</span><b>1.5 mm</b></div><h3>P1.5 Indoor</h3><p><strong data-i18n="use_label">بەکارهێنانی باو:</strong> <span data-i18n="use_p15">ژووری کۆنترۆڵ، ستۆدیۆ و بینینی نزیک</span></p><p><strong data-i18n="distance_label">مەودای بینین:</strong> <span data-i18n="close_distance">بۆ مەودای نزیک پێشنیار دەکرێت</span></p><div class="card-actions"><a href="#contact" class="button small secondary specs-button" data-i18n="request_specs">داواکاری تایبەتمەندی</a><a href="#" class="button small primary whatsapp-product" data-i18n="ask_whatsapp">پرسیار لە WhatsApp</a></div></div></article>
+          <article class="product-card" data-product="P2 Indoor"><div class="product-image"><img src="assets/images/products/p2.jpg" alt="P2 Indoor LED display" loading="lazy" data-product-image><span>P2</span></div><div class="card-body"><div class="card-meta"><span data-i18n="indoor">ناوەوە</span><b>2 mm</b></div><h3>P2 Indoor</h3><p><strong data-i18n="use_label">بەکارهێنانی باو:</strong> <span data-i18n="use_p2">هۆڵی کۆبوونەوە، پێشانگا و فرۆشگا</span></p><p><strong data-i18n="distance_label">مەودای بینین:</strong> <span data-i18n="close_distance">بۆ مەودای نزیک پێشنیار دەکرێت</span></p><div class="card-actions"><a href="#contact" class="button small secondary specs-button" data-i18n="request_specs">داواکاری تایبەتمەندی</a><a href="#" class="button small primary whatsapp-product" data-i18n="ask_whatsapp">پرسیار لە WhatsApp</a></div></div></article>
+          <article class="product-card" data-product="P2.5 Indoor"><div class="product-image"><img src="assets/images/products/p2-5.jpg" alt="P2.5 Indoor LED display" loading="lazy" data-product-image><span>P2.5</span></div><div class="card-body"><div class="card-meta"><span data-i18n="indoor">ناوەوە</span><b>2.5 mm</b></div><h3>P2.5 Indoor</h3><p><strong data-i18n="use_label">بەکارهێنانی باو:</strong> <span data-i18n="use_p25">شوێنی بازرگانی و هۆڵی ناوەوە</span></p><p><strong data-i18n="distance_label">مەودای بینین:</strong> <span data-i18n="medium_distance">بۆ مەودای نزیک تا مامناوەند</span></p><div class="card-actions"><a href="#contact" class="button small secondary specs-button" data-i18n="request_specs">داواکاری تایبەتمەندی</a><a href="#" class="button small primary whatsapp-product" data-i18n="ask_whatsapp">پرسیار لە WhatsApp</a></div></div></article>
+          <article class="product-card" data-product="P3 Indoor / Outdoor"><div class="product-image"><img src="assets/images/products/p3.jpg" alt="P3 Indoor or Outdoor LED display" loading="lazy" data-product-image><span>P3</span></div><div class="card-body"><div class="card-meta"><span data-i18n="both">ناوەوە / دەرەوە</span><b>3 mm</b></div><h3>P3 Indoor / Outdoor</h3><p><strong data-i18n="use_label">بەکارهێنانی باو:</strong> <span data-i18n="use_p3">سەکۆ، بۆنە و دامەزراندنی جۆراوجۆر</span></p><p><strong data-i18n="distance_label">مەودای بینین:</strong> <span data-i18n="medium_distance">بۆ مەودای نزیک تا مامناوەند</span></p><div class="card-actions"><a href="#contact" class="button small secondary specs-button" data-i18n="request_specs">داواکاری تایبەتمەندی</a><a href="#" class="button small primary whatsapp-product" data-i18n="ask_whatsapp">پرسیار لە WhatsApp</a></div></div></article>
+          <article class="product-card" data-product="P4 Outdoor"><div class="product-image"><img src="assets/images/products/p4.jpg" alt="P4 Outdoor LED display" loading="lazy" data-product-image><span>P4</span></div><div class="card-body"><div class="card-meta"><span data-i18n="outdoor">دەرەوە</span><b>4 mm</b></div><h3>P4 Outdoor</h3><p><strong data-i18n="use_label">بەکارهێنانی باو:</strong> <span data-i18n="use_p4">تابلۆی بازرگانی و ڕووکاری بینا</span></p><p><strong data-i18n="distance_label">مەودای بینین:</strong> <span data-i18n="medium_distance">بۆ مەودای نزیک تا مامناوەند</span></p><div class="card-actions"><a href="#contact" class="button small secondary specs-button" data-i18n="request_specs">داواکاری تایبەتمەندی</a><a href="#" class="button small primary whatsapp-product" data-i18n="ask_whatsapp">پرسیار لە WhatsApp</a></div></div></article>
+          <article class="product-card" data-product="P5 Outdoor"><div class="product-image"><img src="assets/images/products/p5.jpg" alt="P5 Outdoor LED display" loading="lazy" data-product-image><span>P5</span></div><div class="card-body"><div class="card-meta"><span data-i18n="outdoor">دەرەوە</span><b>5 mm</b></div><h3>P5 Outdoor</h3><p><strong data-i18n="use_label">بەکارهێنانی باو:</strong> <span data-i18n="use_p5">تابلۆی ڕیکلامی و بینینی دوورتر</span></p><p><strong data-i18n="distance_label">مەودای بینین:</strong> <span data-i18n="far_distance">بۆ مەودای مامناوەند تا دوور</span></p><div class="card-actions"><a href="#contact" class="button small secondary specs-button" data-i18n="request_specs">داواکاری تایبەتمەندی</a><a href="#" class="button small primary whatsapp-product" data-i18n="ask_whatsapp">پرسیار لە WhatsApp</a></div></div></article>
+          <article class="product-card" data-product="P6 Outdoor"><div class="product-image"><img src="assets/images/products/p6.jpg" alt="P6 Outdoor LED display" loading="lazy" data-product-image><span>P6</span></div><div class="card-body"><div class="card-meta"><span data-i18n="outdoor">دەرەوە</span><b>6 mm</b></div><h3>P6 Outdoor</h3><p><strong data-i18n="use_label">بەکارهێنانی باو:</strong> <span data-i18n="use_p6">شاشەی گەورە و بینینی دوور</span></p><p><strong data-i18n="distance_label">مەودای بینین:</strong> <span data-i18n="far_distance">بۆ مەودای مامناوەند تا دوور</span></p><div class="card-actions"><a href="#contact" class="button small secondary specs-button" data-i18n="request_specs">داواکاری تایبەتمەندی</a><a href="#" class="button small primary whatsapp-product" data-i18n="ask_whatsapp">پرسیار لە WhatsApp</a></div></div></article>
+          </template>
+        </div>
+        <p class="disclaimer" data-i18n="disclaimer">تایبەتمەندییە کۆتاییەکان بە پێی مۆدێل، کابینەت و پێداویستی پڕۆژە دیاری دەکرێن.</p>
+      </div>
+    </section>
+    <section id="contact" class="section contact page-section">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal"><p class="eyebrow" data-i18n="contact_label">پەیوەندی</p><h2 data-i18n="contact_title">با دەربارەی پڕۆژەکەت قسە بکەین</h2><p data-i18n="contact_intro">زانیارییە سەرەتاییەکان بنووسە؛ داواکارییەکەت لە WhatsApp ئامادە دەکەین.</p><div class="contact-details"><p><span class="detail-icon">01</span><span><strong data-i18n="phone">ژمارەی مۆبایل</strong><a href="tel:+9647501333634" dir="ltr">07501333634</a></span></p><p><span class="detail-icon">02</span><span><strong data-i18n="location">شوێن</strong><span data-i18n="ranya">ڕانیە، عێراق</span></span></p></div><a class="button primary" href="#" target="_blank" rel="noopener noreferrer" data-direct-whatsapp data-i18n="whatsapp">WhatsApp</a></div>
+        <form id="contact-form" class="reveal" novalidate>
+          <div class="field"><label for="name" data-i18n="full_name">ناوی تەواو</label><input id="name" name="name" autocomplete="name" required></div><div class="field"><label for="phone" data-i18n="phone">ژمارەی مۆبایل</label><input id="phone" name="phone" type="tel" autocomplete="tel" required></div>
+          <div class="field"><label for="product" data-i18n="product_type">جۆری بەرهەم</label><select id="product" name="product" required><option value="" data-i18n="choose">هەڵبژێرە</option><option value="p1-5">P1.5</option><option value="p2">P2</option><option value="p2-5">P2.5</option><option value="p3">P3</option><option value="p4">P4</option><option value="p5">P5</option><option value="p6">P6</option><option value="restaurant-cafe-displays" data-i18n="restaurantCafeDisplays">شاشەکانی ڕێستۆرانت و کافێ</option><option value="commercial-advertising-displays" data-i18n="commercialAdvertisingDisplays">شاشە ڕیکلامییەکانی دووکان و شوێنە گشتییەکان</option><option value="product-samples" data-i18n="productSamples">نموونەی بەرهەمەکان</option></select></div><div class="field" data-order-environment hidden><label for="environment" data-i18n="environment">ناوەوە یان دەرەوە</label><select id="environment" name="environment"><option value="" data-i18n="choose">هەڵبژێرە</option><option value="indoor" data-i18n="indoor">ناوەوە</option><option value="outdoor" data-i18n="outdoor">دەرەوە</option></select></div>
+          <fieldset class="screen-model-field full" data-screen-model-field hidden><legend data-i18n="choose_screen_model">وێنەی جۆری شاشەکە هەڵبژێرە</legend><div class="screen-model-state" data-screen-model-state aria-live="polite"></div><div class="screen-model-grid" data-screen-model-grid></div><p class="screen-model-error" data-screen-model-error role="alert" aria-live="polite"></p></fieldset>
+          <div class="field"><label for="width" data-i18n="width">پانی شاشە (مەتر)</label><input id="width" name="width" type="number" min="0.1" step="0.1" inputmode="decimal" required></div><div class="field"><label for="height" data-i18n="height">بەرزی شاشە (مەتر)</label><input id="height" name="height" type="number" min="0.1" step="0.1" inputmode="decimal" required></div>
+          <div class="field full"><label for="city" data-i18n="city">شار</label><input id="city" name="city" autocomplete="address-level2" required></div><div class="field full"><label for="message" data-i18n="message">پەیام</label><textarea id="message" name="message" rows="4"></textarea></div><p class="form-status full" role="alert" aria-live="polite"></p><button class="button primary full" type="submit" data-i18n="send_whatsapp">ناردن لە WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container footer-inner"><a class="footer-brand" href="#home"><span class="logo-wrap"><img src="assets/images/nexar-logo-light.png" alt="NEXAR logo" data-logo><span class="logo-fallback">NEXAR</span></span><span><strong>NEXAR</strong><small data-i18n="brand_tagline">چارەسەری شاشەی LED</small></span></a><nav class="footer-links" aria-label="Footer"><a href="#home" data-i18n="nav_home">سەرەکی</a><a href="#products" data-i18n="nav_products">بەرهەمەکان</a><a href="#contact" data-i18n="nav_contact">پەیوەندی</a></nav><div class="footer-contact"><span data-i18n="ranya">ڕانیە، عێراق</span><a href="tel:+9647501333634" dir="ltr">07501333634</a></div><p>© <span data-year></span> NEXAR</p></div></footer>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/products.js"></script>
+</body>
+</html>

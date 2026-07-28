@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "scripts": {
+    "generate-products": "node scripts/generate-product-manifest.mjs"
+  }
+}

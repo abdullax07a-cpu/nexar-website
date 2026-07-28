@@ -1,0 +1,211 @@
+{
+  "products": {
+    "p1-5": {
+      "indoor": [
+        "p1-5/indoor/p1 gawra.png",
+        "p1-5/indoor/p1mm.png"
+      ],
+      "outdoor": [
+        "p1-5/outdoor/p1 gawra.png",
+        "p1-5/outdoor/p1mm.png"
+      ]
+    },
+    "p2": {
+      "indoor": [
+        "p2/indoor/p2 gawra.png",
+        "p2/indoor/p2 gwarat.png",
+        "p2/indoor/p2mm.png",
+        "p2/indoor/p3 gawra qaws.png"
+      ],
+      "outdoor": [
+        "p2/outdoor/p2 gawra.png",
+        "p2/outdoor/p2 gwarat.png",
+        "p2/outdoor/p2mm.png",
+        "p2/outdoor/p3 gawra qaws.png"
+      ]
+    },
+    "p2-5": {
+      "indoor": [
+        "p2-5/indoor/p2 gawra.png",
+        "p2-5/indoor/p2 gwarat.png",
+        "p2-5/indoor/p2mm.png",
+        "p2-5/indoor/p3 gawra qaws.png"
+      ],
+      "outdoor": [
+        "p2-5/outdoor/p2 gawra.png",
+        "p2-5/outdoor/p2 gwarat.png",
+        "p2-5/outdoor/p2mm.png",
+        "p2-5/outdoor/p3 gawra qaws.png"
+      ]
+    },
+    "p3": {
+      "indoor": [
+        "p3/indoor/p3 gawra qaws.png",
+        "p3/indoor/p3 gwara.png",
+        "p3/indoor/p3mm.png"
+      ],
+      "outdoor": [
+        "p3/outdoor/p3 gawra qaws.png",
+        "p3/outdoor/p3 gwara.png",
+        "p3/outdoor/p3mm.png"
+      ]
+    },
+    "p4": {
+      "indoor": [
+        "p4/indoor/p4 gawra qasw.png",
+        "p4/indoor/p4 gawra.png",
+        "p4/indoor/p4mm.png"
+      ],
+      "outdoor": [
+        "p4/outdoor/p4 gawra qasw.png",
+        "p4/outdoor/p4 gawra.png",
+        "p4/outdoor/p4mm.png"
+      ]
+    },
+    "commercial-advertising-displays": {
+      "indoor": [
+        "commercial-advertising-displays/indoor/reklam1.png",
+        "commercial-advertising-displays/indoor/reklam2.png",
+        "commercial-advertising-displays/indoor/reklam4.png",
+        "commercial-advertising-displays/indoor/reklam5.png",
+        "commercial-advertising-displays/indoor/reklam6.png",
+        "commercial-advertising-displays/indoor/reklam7.png",
+        "commercial-advertising-displays/indoor/reklam11.jpg",
+        "commercial-advertising-displays/indoor/reklam12.png",
+        "commercial-advertising-displays/indoor/reklam15.png"
+      ],
+      "outdoor": [
+        "commercial-advertising-displays/outdoor/reklam1.png",
+        "commercial-advertising-displays/outdoor/reklam2.png",
+        "commercial-advertising-displays/outdoor/reklam4.png",
+        "commercial-advertising-displays/outdoor/reklam5.png",
+        "commercial-advertising-displays/outdoor/reklam6.png",
+        "commercial-advertising-displays/outdoor/reklam7.png",
+        "commercial-advertising-displays/outdoor/reklam11.jpg",
+        "commercial-advertising-displays/outdoor/reklam12.png",
+        "commercial-advertising-displays/outdoor/reklam15.png"
+      ]
+    },
+    "p5": {
+      "images": [
+        "p5/p2 gwarat.png",
+        "p5/p3 gwara.png",
+        "p5/p4mm.png",
+        "p5/p5 gawra.png"
+      ]
+    },
+    "p6": {
+      "images": [
+        "p6/p2 gwarat.png",
+        "p6/p4 gawra.png",
+        "p6/p6 gawra qaws.png",
+        "p6/p6mm.png"
+      ]
+    },
+    "product-samples": {
+      "images": [
+        "product-samples/1785267924994 (1).png",
+        "product-samples/1785267945085 (1).png",
+        "product-samples/1785267973032 (1).png",
+        "product-samples/1785268009495 (1).png",
+        "product-samples/1785268056797 (1).png",
+        "product-samples/1785268069597 (1).png",
+        "product-samples/1785268153986 (1).png",
+        "product-samples/1785268167161 (1).png",
+        "product-samples/1785268172777 (1).png",
+        "product-samples/1785268180907 (1).png",
+        "product-samples/1785268220649 (1).png",
+        "product-samples/1785268241250 (1).png",
+        "product-samples/1785268281414 (1).png",
+        "product-samples/1785268319310 (1).png",
+        "product-samples/1785268352900 (1).png",
+        "product-samples/1785268367749 (1).png",
+        "product-samples/1785268388477 (1).png",
+        "product-samples/1785268486416 (1).png",
+        "product-samples/1785268503306 (1).png",
+        "product-samples/1785268533650 (1).png",
+        "product-samples/1785268540006 (1).png",
+        "product-samples/1785268566695 (1).png",
+        "product-samples/1785268589249 (1).png",
+        "product-samples/1785268626996 (1).png",
+        "product-samples/1785268671075 (1).png",
+        "product-samples/1785268676905 (1).png",
+        "product-samples/1785268704839 (1).png",
+        "product-samples/1785268760783 (1).png",
+        "product-samples/1785268786120 (1).png",
+        "product-samples/1785268790841 (1).png",
+        "product-samples/1785268814003 (1).png",
+        "product-samples/1785268874771 (1).png",
+        "product-samples/1785268907527 (1).png",
+        "product-samples/1785268912388 (1).png",
+        "product-samples/1785268924333 (1).png",
+        "product-samples/1785268933199 (1).png",
+        "product-samples/1785268950322 (1).png",
+        "product-samples/1785268981931 (1).png",
+        "product-samples/1785270284966 (1).png",
+        "product-samples/1785270331626 (1).png",
+        "product-samples/1785270349395 (1).png",
+        "product-samples/1785270456435 (1).png",
+        "product-samples/1785271352524 (1).png",
+        "product-samples/1785271457044 (1).png",
+        "product-samples/1785271490228 (1).png",
+        "product-samples/1785271566124 (1).png",
+        "product-samples/1785271608977 (1).png",
+        "product-samples/1785271769784 (1).png",
+        "product-samples/1785272200316 (1).png",
+        "product-samples/1785272250095 (1).png",
+        "product-samples/1785272305688 (1).png",
+        "product-samples/1785272308363 (1).png",
+        "product-samples/1785272371634 (1).png"
+      ]
+    },
+    "restaurant-cafe-displays": {
+      "images": [
+        "restaurant-cafe-displays/reklam1.png",
+        "restaurant-cafe-displays/reklam4.png",
+        "restaurant-cafe-displays/reklam7.png",
+        "restaurant-cafe-displays/reklam8.png",
+        "restaurant-cafe-displays/reklam9.png",
+        "restaurant-cafe-displays/reklam13.png",
+        "restaurant-cafe-displays/reklam14.png",
+        "restaurant-cafe-displays/reklam15.png",
+        "restaurant-cafe-displays/reklam16.png",
+        "restaurant-cafe-displays/reklam3333.png"
+      ]
+    },
+    "led-poster": {
+      "images": []
+    },
+    "foldable-led-poster": {
+      "images": []
+    },
+    "digital-kiosk": {
+      "images": []
+    },
+    "outdoor-digital-signage": {
+      "images": []
+    },
+    "ceiling-display": {
+      "images": []
+    },
+    "restaurant-menu-display": {
+      "images": [
+        "restaurant-menu-display/reklam4.png",
+        "restaurant-menu-display/reklam7.png",
+        "restaurant-menu-display/reklam8.png",
+        "restaurant-menu-display/reklam9.png",
+        "restaurant-menu-display/reklam10.png",
+        "restaurant-menu-display/reklam13.png",
+        "restaurant-menu-display/reklam14.png",
+        "restaurant-menu-display/reklam15.png",
+        "restaurant-menu-display/reklam16.png"
+      ]
+    },
+    "cube-display": {
+      "images": []
+    },
+    "creative-led-display": {
+      "images": []
+    }
+  }
+}
